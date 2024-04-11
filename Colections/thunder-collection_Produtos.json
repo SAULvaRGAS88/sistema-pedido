@@ -1,0 +1,43 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Produtos",
+    "dateExported": "2024-04-11T00:53:47.406Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "26e53230-5260-4aa3-b390-b015464234db",
+            "colId": "5304f738-938c-48e6-bb70-927d306fe2f6",
+            "containerId": "",
+            "name": "GET Produtos",
+            "url": "localhost:1337/api/produtos?populate=*",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-11T00:44:17.280Z",
+            "modified": "2024-04-11T00:47:33.820Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "populate",
+                    "value": "*",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "42258b64-00be-4d4e-98f3-2a2565125a7e",
+            "colId": "5304f738-938c-48e6-bb70-927d306fe2f6",
+            "containerId": "",
+            "name": "GET Foto",
+            "url": "http://localhost:1337/uploads/thumbnail_feijao_Foto_47e5e64e39.jpg",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-11T00:50:50.199Z",
+            "modified": "2024-04-11T00:51:00.567Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
